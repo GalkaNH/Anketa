@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pl">
+	 <head>
+	<title>Anketa</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="header__container _container">
+		<div class="hello__content _anim-items">
+			<div class="hello-content__image _anim-items">
+				<img src="img/gora.png" alt="img">
+			</div>
+			<div class="hello-content__text _anim-items">Proszę daj Mi znać, co o nas
+				sądzisz?</div>
+		</div>
+	</div>
+</header>
+			<main class="page">
+				<div class="preface__container _container">
+					<div class="preface__logo">
+						<img src="img/Jeffs_logo.png" alt="logo">
+					</div>
+					<h1 class="preface__title">Chciałbym wiedzieć</h1>
+					<div class="preface__text">Proszę poświęć swój czas na wypiełnienie<br>
+						tej krótkiej ankety i wychodząć wrzuć <br> ją do naszej skrzynki z
+						napisem "I Gotta Know Box" <br> (Chciałbym wiedzieć) <br> Jeszcze raz
+						dziękujemy za przybycie.
+					</div>
+					<div class="option__body">
+						<form action="#" class="option__form">
+							<div class="form__option">
+								<div class="form-option__time">
+									<div id="current_date_time"></div>
+								</div>
+								<div class="form-option__line">
+									<label for="formLocation" class="form-option__label">Lokalizacja</label>
+									<select id="formLocation" name="form[]" class="form-option__form">
+										<option value="1" selected="selected">Pole Mokotowskie, Warszawa</option>
+										<option value="2">Hala Koszyki, Warszawa</option>
+										<option value="3">Galeria Mokotów, Warszawa</option>
+										<option value="4">Galeria Kazimierz, Kraków</option>
+										<option value="5">Silesia City Center, Katowice</option>
+									</select>
+								</div>
+								<div class="form-option__content">
+									<label for="inp" class="form-option-content__label">Kelner/ka</label>
+									<input id="inp" autocomplete="off" type="text" name="form[]"
+										data-error="Bląd" data-value="Nie powiem" class="input _req">
+									<label for="inp" class="form-option-content__label-1">Ilość osób</label>
+									<input id="inp" autocomplete="off" type="text" name="form[]"
+										data-error="Bląd" data-value="Nie powiem" class="input _req">
+								</div>
+								<div class="form-option__body">
+									<div class="option-body__title">Powiedż prawdę jak było</div>
+									<div class="option-body__text">
+										<span>Świetnie</span>
+										Przecętnie
+										<span>Kiepsko</span>
+									</div>
+									<div class="option-body__items">
+										<div class="items__column">
+											<div class="items-column__title">Kelner/ka</div>
+											<div class="items-column__items">
+												<div class="items__item">
+													<div class="items-item__inner">
+														<label for="formA" class="items-item-inner__label">A</label>
+														<input id="formA" checked type="radio" value="a" name="option"
+															class="items-item-inner__input">
+													</div>
+													<div class="items-item__inner">
+														<label for="formB" class="items-item-inner__label">B</label>
+														<input id="formB" type="radio" value="b" name="option"
+															class="items-item-inner__input">
+													</div>
+												</div>
+												<div class="items__item">
+													<div class="items-item__inner-1">
+														<label for="formC" class="items-item-inner-1__label">C</label>
+														<input id="formC" type="radio" value="c" name="option"
+															class="items-item-inner-1__input">
+													</div>
+													<div class="items-item__inner-1">
+														<label for="formD" class="items-item-inner-1__label">D</label>
+														<input id="formD" type="radio" value="d" name="option"
+															class="items-item-inner-1__input">
+													</div>
+												</div>
+												<div class="items__item-1">
+													<label for="formF" class="items-item-1__label">F</label>
+													<input id="formF" type="radio" value="f" name="option"
+														class="items-item-1__input">
+												</div>
+											</div>
+										</div>
+										<div class="items__column">
+											<div class="items-column__title">Jakość jedzenia</div>
+											<div class="items-column__items">
+												<div class="items__item">
+													<div class="items-item__inner">
+														<label for="formA" class="items-item-inner__label">A</label>
+														<input id="formA" type="radio" value="a" name="option"
+															class="items-item-inner__input">
+													</div>
+													<div class="items-item__inner">
+														<label for="formB" class="items-item-inner__label">B</label>
+														<input id="formB" type="radio" value="b" name="option"
+															class="items-item-inner__input">
+													</div>
+												</div>
+												<div class="items__item">
+													<div class="items-item__inner-1">
+														<label for="formC" class="items-item-inner-1__label">C</label>
+														<input id="formC" type="radio" value="c" name="option"
+															class="items-item-inner-1__input">
+													</div>
+													<div class="items-item__inner-1">
+														<label for="formD" class="items-item-inner-1__label">D</label>
+														<input id="formD" type="radio" value="d" name="option"
+															class="items-item-inner-1__input">
+													</div>
+												</div>
+												<div class="items__item-1">
+													<label for="formF" class="items-item-1__label">F</label>
+													<input id="formF" type="radio" value="f" name="option"
+														class="items-item-1__input">
+												</div>
+											</div>
+										</div>
+										<div class="items__column">
+											<div class="items-column__title">Różnorodność menu</div>
+											<div class="items-column__items">
+												<div class="items__item">
+													<div class="items-item__inner">
+														<label for="formA" class="items-item-inner__label">A</label>
+														<input id="formA" type="radio" value="a" name="option"
+															class="items-item-inner__input">
+													</div>
+													<div class="items-item__inner">
+														<label for="formB" class="items-item-inner__label">B</label>
+														<input id="formB" type="radio" value="b" name="option"
+															class="items-item-inner__input">
+													</div>
+												</div>
+												<div class="items__item">
+													<div class="items-item__inner-1">
+														<label for="formC" class="items-item-inner-1__label">C</label>
+														<input id="formC" type="radio" value="c" name="option"
+															class="items-item-inner-1__input">
+													</div>
+													<div class="items-item__inner-1">
+														<label for="formD" class="items-item-inner-1__label">D</label>
+														<input id="formD" type="radio" value="d" name="option"
+															class="items-item-inner-1__input">
+													</div>
+												</div>
+												<div class="items__item-1">
+													<label for="formF" class="items-item-1__label">F</label>
+													<input id="formF" type="radio" value="f" name="option"
+														class="items-item-1__input">
+												</div>
+											</div>
+										</div>
+										<div class="items__column">
+											<div class="items-column__title">Obsługa</div>
+											<div class="items-column__items">
+												<div class="items__item">
+													<div class="items-item__inner">
+														<label for="formA" class="items-item-inner__label">A</label>
+														<input id="formA" type="radio" value="a" name="option"
+															class="items-item-inner__input">
+													</div>
+													<div class="items-item__inner">
+														<label for="formB" class="items-item-inner__label">B</label>
+														<input id="formB" type="radio" value="b" name="option"
+															class="items-item-inner__input">
+													</div>
+												</div>
+												<div class="items__item">
+													<div class="items-item__inner-1">
+														<label for="formC" class="items-item-inner-1__label">C</label>
+														<input id="formC" type="radio" value="c" name="option"
+															class="items-item-inner-1__input">
+													</div>
+													<div class="items-item__inner-1">
+														<label for="formD" class="items-item-inner-1__label">D</label>
+														<input id="formD" type="radio" value="d" name="option"
+															class="items-item-inner-1__input">
+													</div>
+												</div>
+												<div class="items__item-1">
+													<label for="formF" class="items-item-1__label">F</label>
+													<input id="formF" type="radio" value="f" name="option"
+														class="items-item-1__input">
+												</div>
+											</div>
+										</div>
+										<div class="items__column">
+											<div class="items-column__title">Atmosfera</div>
+											<div class="items-column__items">
+												<div class="items__item">
+													<div class="items-item__inner">
+														<label for="formA" class="items-item-inner__label">A</label>
+														<input id="formA" type="radio" value="a" name="option"
+															class="items-item-inner__input">
+													</div>
+													<div class="items-item__inner">
+														<label for="formB" class="items-item-inner__label">B</label>
+														<input id="formB" type="radio" value="b" name="option"
+															class="items-item-inner__input">
+													</div>
+												</div>
+												<div class="items__item">
+													<div class="items-item__inner-1">
+														<label for="formC" class="items-item-inner-1__label">C</label>
+														<input id="formC" type="radio" value="c" name="option"
+															class="items-item-inner-1__input">
+													</div>
+													<div class="items-item__inner-1">
+														<label for="formD" class="items-item-inner-1__label">D</label>
+														<input id="formD" type="radio" value="d" name="option"
+															class="items-item-inner-1__input">
+													</div>
+												</div>
+												<div class="items__item-1">
+													<label for="formF" class="items-item-1__label">F</label>
+													<input id="formF" type="radio" value="f" name="option"
+														class="items-item-1__input">
+												</div>
+											</div>
+										</div>
+										<div class="items__column">
+											<div class="items-column__title">Ogólnie</div>
+											<div class="items-column__items">
+												<div class="items__item">
+													<div class="items-item__inner">
+														<label for="formA" class="items-item-inner__label">A</label>
+														<input id="formA" type="radio" value="a" name="option"
+															class="items-item-inner__input">
+													</div>
+													<div class="items-item__inner">
+														<label for="formB" class="items-item-inner__label">B</label>
+														<input id="formB" type="radio" value="b" name="option"
+															class="items-item-inner__input">
+													</div>
+												</div>
+												<div class="items__item">
+													<div class="items-item__inner-1">
+														<label for="formC" class="items-item-inner-1__label">C</label>
+														<input id="formC" type="radio" value="c" name="option"
+															class="items-item-inner-1__input">
+													</div>
+													<div class="items-item__inner-1">
+														<label for="formD" class="items-item-inner-1__label">D</label>
+														<input id="formD" type="radio" value="d" name="option"
+															class="items-item-inner-1__input">
+													</div>
+												</div>
+												<div class="items__item-1">
+													<label for="formF" class="items-item-1__label">F</label>
+													<input id="formF" type="radio" value="f" name="option"
+														class="items-item-1__input">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-1">
+									<label for="formMessage" class="form-option-content-1__label">Komentarze:</label>
+									<textarea name="message" id="formMessage"
+										class="input-1"></textarea>
+								</div>
+								<div class="form-option__content-2">
+									<label for="formMessage" class="form-option-content-2__label">Zamówione
+										dania:</label>
+									<textarea name="message" id="formMessage"
+										class="input-1"></textarea>
+								</div>
+								<div class="form-option__content-3">
+									<div class="form-option-content-3__title">Czy to bya Twoja pierwsza
+										wizyta?</div>
+									<div class="form-option-content-3__items">
+										<div class="items__inner">
+											<label for="formTak" class="items-inner__label">Tak</label>
+											<input id="formTak" type="radio" value="tak" name="option"
+												class="items-inner__input">
+										</div>
+										<div class="items__inner">
+											<label for="formNie" class="items-inner__label">Nie</label>
+											<input id="formNie" type="radio" value="nie" name="option"
+												class="items-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-3">
+									<div class="form-option-content-3__title">Czy kierownik zawitał do
+										Twojego stolika?</div>
+									<div class="form-option-content-3__items">
+										<div class="items__inner">
+											<label for="formTak" class="items-inner__label">Tak</label>
+											<input id="formTak" type="radio" value="tak" name="option"
+												class="items-inner__input">
+										</div>
+										<div class="items__inner">
+											<label for="formNie" class="items-inner__label">Nie</label>
+											<input id="formNie" type="radio" value="nie" name="option"
+												class="items-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-3">
+									<div class="form-option-content-3__title">Czy zrobiłeś rezerwacje?</div>
+									<div class="form-option-content-3__items">
+										<div class="items__inner">
+											<label for="formTak" class="items-inner__label">Tak</label>
+											<input id="formTak" type="radio" value="tak" name="option"
+												class="items-inner__input">
+										</div>
+										<div class="items__inner">
+											<label for="formNie" class="items-inner__label">Nie</label>
+											<input id="formNie" type="radio" value="nie" name="option"
+												class="items-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__title-1">Jak się o nas dowiedziałeś ?</div>
+								<div class="form-option__content-4">
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formTelewizja" class="content-4-body-inner__label">telewizja</label>
+											<input id="formTelewizja" type="radio" value="telewizja"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formRadio" class="content-4-body-inner__label">radio</label>
+											<input id="formRadio" type="radio" value="radio"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-4">
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formGazeta" class="content-4-body-inner__label">gazeta</label>
+											<input id="formGazeta" type="radio" value="gazeta"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formPrzyjaciel" class="content-4-body-inner__label">przyjaciel</label>
+											<input id="formPrzyjaciel" type="radio" value="przyjaciel"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-4">
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formTablica" class="content-4-body-inner__label">tablica
+												rekamowa</label>
+											<input id="formTablica" type="radio" value="tablica"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formWpadl" class="content-4-body-inner__label">wpadłeś
+												przechodząc</label>
+											<input id="formWpadl" type="radio" value="wpadl"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-4">
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formReklama" class="content-4-body-inner__label">z
+												reklamy z kina</label>
+											<input id="formReklama" type="radio" value="reklama"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+									<div class="form-option-content-4__body">
+										<div class="content-4-body__items">
+											<label for="formInne" class="content-4-body-inner__label">inne</label>
+											<input id="formInne" type="radio" value="inne"
+												name="option" class="content-4-body-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-5">
+									<div class="form-option-content-5__title">Czy wrócisz do nas?</div>
+									<div class="form-option-content-5__items">
+										<div class="items__inner">
+											<label for="formTak" class="items-inner__label">Tak</label>
+											<input id="formTak" type="radio" value="tak" name="option"
+												class="items-inner__input">
+										</div>
+										<div class="items__inner">
+											<label for="formNie" class="items-inner__label">Nie</label>
+											<input id="formNie" type="radio" value="nie" name="option"
+												class="items-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__content-5">
+									<div class="form-option-content-5__title">Czy polecisz nas swoim
+										znajomym?</div>
+									<div class="form-option-content-5__items">
+										<div class="items__inner">
+											<label for="formTak" class="items-inner__label">Tak</label>
+											<input id="formTak" type="radio" value="tak" name="option"
+												class="items-inner__input">
+										</div>
+										<div class="items__inner">
+											<label for="formNie" class="items-inner__label">Nie</label>
+											<input id="formNie" type="radio" value="nie" name="option"
+												class="items-inner__input">
+										</div>
+									</div>
+								</div>
+								<div class="form-option__footer">
+									<div class="form-option-footer__item">
+										<label for="formName" class="form-option-footer-item__label">Imię</label>
+										<input id="formName" type="text" name="name" data-value="Nie powiem"
+											class="form-option-footer-item input _req">
+									</div>
+									<div class="form-option-footer__item">
+										<label for="formSurname" class="form-option-footer-item__label">Nazwisko</label>
+										<input id="formSurname" type="text" name="surname"
+											data-value="Nie powiem"
+											class="form-option-footer-item input _req">
+									</div>
+								</div>
+								<div class="form-option__footer">
+									<div class="form-option-footer__item">
+										<label for="formAdres" class="form-option-footer-item__label">Adres</label>
+										<input id="formAdres" type="text" name="adres" data-value="Nie powiem"
+											class="form-option-footer-item input _req">
+									</div>
+									<div class="form-option-footer__item">
+										<label for="formSity" class="form-option-footer-item__label">Miasto</label>
+										<input id="formSity" type="text" name="sity"
+											data-value="Nie powiem"
+											class="form-option-footer-item input _req">
+									</div>
+								</div>
+								<div class="form-option__footer">
+									<div class="form-option-footer__item">
+										<label for="formPostcode" class="form-option-footer-item__label">Kod
+											pocztowy</label>
+										<input id="formPostcode" type="text" name="postcode"
+											data-value="Nie powiem" class="form-option-footer-item input _req">
+									</div>
+									<div class="form-option-footer__item">
+										<label for="formPhone" class="form-option-footer-item__label">Telefon</label>
+										<input id="formPhone" autocomplete="off" type="text" name="form[]"
+											data-value="000 000 000"
+											class="form-option-footer-item input _phone">
+									</div>
+								</div>
+								<div class="form-option__item">
+									<div class="form-option-item__label">Dodaj zdjęcie</div>
+									<div class="file">
+										<div class="file__item">
+											<input id="formIage" accept=".jpg, .png, .gif" type="file"
+												name="image"
+												class="file-item-items__input">
+											<div class="file__button">Dodaj</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-option__agreement">
+									<div class="form__checkbox">
+										<input id="formAgreement" type="checkbox" name="agreement"
+											class="checkbox__input">
+										<label for="formAgreement" class="checkbox__label"><span>Wypełnienie
+												niniejszego formularza jest dobrowolne. Podanie przez Państwa danych
+												osobowych oraz wyrażenie zgody na
+												kontakt marketingowy umożliwi nam przekazywanie Państwu informacji
+												dotyczących naszych usług, wydarzeń i promocji.
+												Informacja dotycząca celów i zasad przetwarzania Państwa danych
+												osobowych oraz o przysługujących uprawnieniach
+												znajdziecie Państwo w Polityce prywatności dostępnej na stronie
+												https://jeffs.com/jak-przetwarzamy-twoje-dane-osobowe
+												oraz pod adresem iod@jarczynski.pl</span></label>
+									</div>
+								</div>
+								<div class="form-option__acceptance">
+									<div class="acceptance__checkbox">
+										<input id="formAcceptance" type="checkbox" name="acceptance"
+											class="acceptance-checkbox__input">
+										<label for="formAcceptance" class="acceptance-checkbox__label">Administratorem
+											danych osobowych jest przedsiębiorca, a więc spółka prawa handlowego,
+											a nie jej organ, lub osoba fizyczna sprawująca funkcję członka organu
+										</label>
+									</div>
+								</div>
+								<div class="form__button">
+									<button type="submit" class="form-button__button">Wyślij </button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__content">Copyright © 2021. Wszelkie prawa zastrzeżone.
+			Designed by G&G webstudio.</div>
+	</div>
+</footer>
+		</div>
+		<div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
